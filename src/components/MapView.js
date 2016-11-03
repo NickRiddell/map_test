@@ -1,8 +1,6 @@
-var React = require('react');
-var PubList = require('./PubList.jsx');
-var Map = require('../Map/map.js');
+import React, {Component} from 'react';
 
-var MainView = React.createClass({
+var Map = React.createClass({
 
   getInitialState: function() {
     return {data: []};
@@ -49,4 +47,4 @@ var MainView = React.createClass({
 
 })
 
-module.exports = MainView;
+module.exports = MapView;
